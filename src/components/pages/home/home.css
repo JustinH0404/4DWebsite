@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&family=Red+Hat+Text:wght@300;500&display=swap');
+
+
+.home{
+    height:100vh;
+    background-image: url('./assets/background.png');
+    background-size: 100% 100vh;
+}
+
+.title{
+    padding-top: 37vh;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 72px;
+    height:88%;
+}
+
+.description{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 18px;
+}
