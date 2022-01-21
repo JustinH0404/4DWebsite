@@ -1,8 +1,10 @@
 import './about.css'
-import AnimatedNumber from "animated-number-react";
+import {useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
-export default function about(){
+export default function About(){
     const counterAnim = (qSelector, start = 0, end, duration = 1000) => {
         const target = document.querySelector(qSelector);
         let startTimestamp = null;
@@ -19,11 +21,14 @@ export default function about(){
         //#endregion - end of - number counter animation
         
     document.addEventListener("DOMContentLoaded", () => {
-        counterAnim("#count1", 10, 1, 1000);
-        counterAnim("#count2", 5000, 5, 1500);
-        counterAnim("#count3", -1000, -150, 2000);
-        counterAnim("#count4", 500, -100, 2500);
+        counterAnim("#count1", 0, 1, 2000);
+        counterAnim("#count2", 0, 5, 1500);
+        counterAnim("#count3", 0, 15, 2000);
+        counterAnim("#count4", 0, 10000, 5000);
     });
+    useEffect(() => {
+        Aos.init({duration:1500});
+    }, []);
 
     return(
         <div class = "about container">
@@ -38,19 +43,19 @@ export default function about(){
             <div class= "col-md-7 ml-5">
                 <div class="row mt-5"> 
                     <div class="col-sm-3 mb-5">
-                        <h1 class="stats1"> </h1>
+                        <h1 id ="count4" class="stats1">10,000 </h1>
                         <h5 class="statdesccription">Dollars Raised </h5>
                     </div>
                     <div class="col-sm-3 mb-5">
-                        <h1 class="stats2"> </h1>
+                        <h1 id = "count3" class="stats2"> 15</h1>
                         <h5 class="statdesccription"> Members </h5>
                     </div> 
                     <div class="col-sm-3 mb-5">
-                        <h1 id = "count2" class="stats3"> </h1>
+                        <h1 id = "count2" class="stats3"> 5</h1>
                         <h5 class="statdesccription"> Projects</h5>
                     </div> 
                     <div class="col-sm-3 mb-5">
-                        <h1 id = "count1" class="stats4">1</h1>
+                        <h1 id = "count1" data-aos="fade-left" class="stats4"> 1</h1>
                         <h5 class="statdesccription"> Community </h5>
                     </div>                   
                 </div>
