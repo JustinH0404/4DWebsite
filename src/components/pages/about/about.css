@@ -1,2 +1,19 @@
 
+.about{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
 
+.aboutTitle{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 50px;
+    font-weight:700;
+    text-align:left;
+}
+
+.aboutDescription{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 24px;
+    font-weight:300;
+    text-align:left;
+}
