@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 
 
 export default function About(){
+    //counter function
     const counterAnim = (qSelector, start = 0, end, duration = 1000) => {
         const target = document.querySelector(qSelector);
         let startTimestamp = null;
@@ -18,14 +19,27 @@ export default function About(){
         };
         window.requestAnimationFrame(step);
     };
-        //#endregion - end of - number counter animation
         
-    document.addEventListener("DOMContentLoaded", () => {
-        counterAnim("#count1", 0, 1, 2000);
-        counterAnim("#count2", 0, 5, 1500);
-        counterAnim("#count3", 0, 15, 2000);
-        counterAnim("#count4", 0, 10000, 5000);
-    });
+    // document.addEventListener("DOMContentLoaded", () => {
+    //     counterAnim("#count1", 0, 1, 2000);
+    //     counterAnim("#count2", 0, 5, 1500);
+    //     counterAnim("#count3", 0, 15, 2000);
+    //     counterAnim("#count4", 0, 10000, 3000);
+    // });
+    const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+    var count = 0;
+    function myFunction(){
+        if(document.documentElement.scrollTop>0.1*vh && count === 0){
+            counterAnim("#count1", 0, 1, 2000);
+            counterAnim("#count2", 0, 5, 1500);
+            counterAnim("#count3", 0, 15, 2000);
+            counterAnim("#count4", 0, 10000, 3000);
+            count = count+1;
+        }
+        console.log(document.documentElement.scrollTop, vh)
+    }
+    window.onscroll = function() {myFunction()};
+
     useEffect(() => {
         Aos.init({duration:1500});
     }, []);
