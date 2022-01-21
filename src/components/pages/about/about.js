@@ -45,6 +45,7 @@ export default function About(){
     }, []);
 
     return(
+        <section id = "about"> 
         <div class = "about container">
             <div class="row">
             <div class = "col-md-5 ">
@@ -76,5 +77,6 @@ export default function About(){
             </div>
             </div>
         </div>
+        </section>
     )
 }
