@@ -22,9 +22,10 @@
     color:white;
     font-family: 'Red Hat Text', sans-serif;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 375;
     margin-left: 3vw;
     margin-right: 3vw;
+    padding-bottom: 10%;
   }
   .navbar .navbar-nav .nav-link::after {
     position: absolute;
@@ -36,7 +37,7 @@
     color: transparent;
     width: 0;
     content: '';
-    height: 3px;
+    height: 2px;
     transition: all 0.5s;
   }
   .navbar .navbar-nav .nav-link:hover::after {

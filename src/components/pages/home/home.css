@@ -3,16 +3,17 @@
 
 
 .home{
+    background: url('./assets/background.png') center center fixed;
+    max-width:100%;
+    background-size: cover;
     height:100vh;
-    background-image: url('./assets/background.png');
-    background-size: 100% 100vh;
+
 }
 
 .title{
     padding-top: 37vh;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 72px;
-    height:88%;
 }
 
 .description{
