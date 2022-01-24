@@ -1,0 +1,37 @@
+.servicesTitle{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 50px;
+    font-weight:700;
+    text-align:center;
+    color:lightgrey;
+}
+.services{
+    background-color:rgb(36,37,38);
+}
+.cards{
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: all 0.2s ease-in-out;
+    font-family:"Red Hat Text", sans-serif;
+    border-radius:0;
+}
+.card:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    transform:scale(1.05)
+}
+.card-button{
+    transition:all 0.2s ease-in-out;
+    font-family:"Red Hat Text", sans-serif;
+    border-radius:0;
+}
+.card-button:hover{
+    background-color: lightgrey;
+}
+.card-body{
+    font-size: 18px;
+    font-weight:300;
+}

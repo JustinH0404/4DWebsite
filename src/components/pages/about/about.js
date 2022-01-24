@@ -45,7 +45,7 @@ export default function About(){
     }, []);
 
     return(
-        <div class = "about container">
+        <div class = "about container" id="about">
             <div class="row">
             <div class = "col-md-5 ">
                 <p class = "aboutTitle"> Who we are</p>

@@ -1,7 +1,7 @@
-import "./home.css"
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "./home.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function home(){
+export default function Home(){
     return(
         <div class = "home">
             <div class = "container-fluid">
