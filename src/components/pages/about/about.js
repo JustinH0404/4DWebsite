@@ -30,10 +30,10 @@ export default function About(){
     var count = 0;
     function myFunction(){
         if(document.documentElement.scrollTop>0.1*vh && count === 0){
-            counterAnim("#count1", 0, 1, 2000);
+            counterAnim("#count1", 0, 1, 1000);
             counterAnim("#count2", 0, 5, 1500);
             counterAnim("#count3", 0, 15, 2000);
-            counterAnim("#count4", 0, 10000, 3000);
+            counterAnim("#count4", 0, 10000, 2500);
             count = count+1;
         }
         console.log(document.documentElement.scrollTop, vh)
@@ -69,7 +69,7 @@ export default function About(){
                         <h5 class="statdesccription"> Projects</h5>
                     </div> 
                     <div class="col-sm-3 mb-5">
-                        <h1 id = "count1" data-aos="fade-left" class="stats4"> 1</h1>
+                        <h1 id = "count1" class="stats4"> 1</h1>
                         <h5 class="statdesccription"> Community </h5>
                     </div>                   
                 </div>
