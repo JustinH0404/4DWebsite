@@ -3,10 +3,10 @@
     font-size: 50px;
     font-weight:700;
     text-align:center;
-    color:lightgrey;
+    color:black;
 }
 .services{
-    background-color:rgb(36,37,38);
+    background-color:rgb(186, 193, 199);
 }
 .cards{
     display:inline-flex;

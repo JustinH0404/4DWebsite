@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Services(){
     return(
-        <div class = "services container-fluid" id="services">
+        <div class = "services container-fluid pt-3" id="services">
             <p class = "servicesTitle pt-5"> What we offer </p>
             <div class="container">
                 <div class ="cards mb-5">

@@ -45,8 +45,8 @@ export default function About(){
     }, []);
 
     return(
-        <div class = "about container" id="about">
-            <div class="row">
+        <div class = "about container py-4" id="about">
+            <div class="row py-5">
             <div class = "col-md-5 ">
                 <p class = "aboutTitle"> Who we are</p>
                 <p class = "aboutDescription">Founded in 2022, 4D Capital is an organization based in 
