@@ -7,7 +7,7 @@ export default function Home(){
             <div class = "container-fluid">
                 <div class = "row">
                     <div class = "col-sm-1"></div>
-                    <div class = "col-sm-5">
+                    <div class = "col-md-5">
                         <div class = "title">
                             <span>4D Capital</span>
                         </div>

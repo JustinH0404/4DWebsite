@@ -18,3 +18,43 @@
     text-align:left;
 }
 
+@media only screen and (max-width: 1200px){
+    .aboutTitle{
+        font-size:40px;
+    }
+    .aboutDescription{
+        font-size: 18px;
+    }
+    .statdesccription{
+        font-size: 14px;
+    }
+    .stats1{
+        font-size:32px;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    .statdesccription{
+        font-size: 18px;
+    }
+    .stats1{
+        font-size:24px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .aboutTitle{
+        font-size:50px;
+        text-align:center;
+    }
+    .aboutDescription{
+        text-align:center;
+        font-size:24px;
+    }
+    .statdesccription{
+        font-size: 20px;
+    }
+    .stats1{
+        font-size: 36px;
+    }
+}

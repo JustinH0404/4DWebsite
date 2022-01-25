@@ -54,22 +54,22 @@ export default function About(){
                 focus on creating invaluable experiences for both our clients and
                 our members etc etc etc </p>
             </div>
-            <div class= "col-md-7 ml-5">
+            <div class= "col-md-7 ml-5 my-auto">
                 <div class="row mt-5"> 
-                    <div class="col-sm-3 mb-5">
+                    <div class="col-md-3">
                         <h1 id ="count4" class="stats1">10,000 </h1>
                         <h5 class="statdesccription">Dollars Raised </h5>
                     </div>
-                    <div class="col-sm-3 mb-5">
-                        <h1 id = "count3" class="stats2"> 15</h1>
+                    <div class="col-md-3">
+                        <h1 id = "count3" class="stats1"> 15</h1>
                         <h5 class="statdesccription"> Members </h5>
                     </div> 
-                    <div class="col-sm-3 mb-5">
-                        <h1 id = "count2" class="stats3"> 5</h1>
+                    <div class="col-md-3">
+                        <h1 id = "count2" class="stats1"> 5</h1>
                         <h5 class="statdesccription"> Projects</h5>
                     </div> 
-                    <div class="col-sm-3 mb-5">
-                        <h1 id = "count1" class="stats4"> 1</h1>
+                    <div class="col-md-3">
+                        <h1 id = "count1" class="stats1"> 1</h1>
                         <h5 class="statdesccription"> Community </h5>
                     </div>                   
                 </div>
